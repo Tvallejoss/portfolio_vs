@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+.box {
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    background-color: #0b0e14;
+    color: white;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.firstTab {
+    width: 38%;
+    height: 37px;
+    background-color: #3c3c3c;
+    /* border: 1px solid green; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.firstTab ul {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: flex-start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.firstTab ul li {
+    padding-right: 20px;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.firstTab ul:first-child {
+    padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.firstTab ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.proyectName {
+    width: 25%;
+    height: 37px;
+    background-color: #3c3c3c;
+    text-align: center;
+
+    /* border: 1px solid green;l */
+}
+
+.proyectName h1 {
+    font-size: 14.5px;
+    color: #c3c1cc;
+    font-weight: 480;
+}
+
+.secondTab {
+    width: 37%;
+    height: 37px;
+    background-color: #3c3c3c;
+}
+
+.secondTab img {
+    width: 16px;
+    height: 16px;
+}
+
+.secondTab ul {
+    display: flex;
+    /* width: 100%; */
+    height: 100%;
+    margin: 0 auto;
+
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* TODO ESTO HAY QUE CAMBIARLO, ES MALA PRACTICA */
+.iconos {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.secondTab ul li {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.secondTab ul:first-child {
+    padding-right: 15px;
+}
+
+.secondTab ul li:nth-child(5) {
+    padding-left: 22px !important;
+}
+
+.secondTab ul li:nth-child(6) {
+    padding-left: 30px !important;
+}
+
+.secondTab ul li:nth-child(7) {
+    padding-left: 32px !important;
+}
+
+/* TODO ESTO HAY QUE CAMBIARLO, ES MALA PRACTICA */
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+.sidebar {
+width: 4%;
+background-color: #333333;
+}
+
+.asideFolder{
+  width: 17%;
+  background-color: #252526;
+}
+
+.principalContent{
+  width: 81%;
+  background-color: #1E1E1E;
 }
