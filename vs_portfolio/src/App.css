@@ -29,14 +29,29 @@
 }
 
 .firstTab ul li {
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     color: #c4c4c4;
     font-weight: 500;
     font-size: 15px;
+  }
+
+.firstTab ul li:hover{
+  border: 1px solid #3F4040;
+  background-color: #3F4040;
+  border-radius: 8px ;
+  cursor:default;
 }
+
 
 .firstTab ul:first-child {
     padding-left: 10px;
+}
+
+/* tengo que anular el hover del logo de visual */
+.firstTab ul:first-child:hover {
+  cursor:default;
+
 }
 
 .firstTab ul li img {
@@ -121,6 +136,32 @@ width: 4%;
 background-color: #333333;
 }
 
+.sidebar aside {
+  width: 100%;
+  margin: 0 auto;
+
+}
+ .sidebar aside ul {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 3px;
+  padding-top: 5px;
+  list-style: none;
+ }
+
+ .sidebar aside ul li img {
+  width: 55px;
+  height: 55px;
+ }
+
+ .sidebar aside ul li img:hover{
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+
+}
+
 .asideFolder{
   width: 17%;
   background-color: #252526;
@@ -130,3 +171,7 @@ background-color: #333333;
   width: 79%;
   background-color: #1E1E1E;
 }
+
+
+
+

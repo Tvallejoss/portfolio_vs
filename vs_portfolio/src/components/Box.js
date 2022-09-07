@@ -94,14 +94,13 @@ export const Box = () => {
 
                         <aside>
                             <ul>
-                                <li>O</li>
-                                <li>0</li>
-                                <li>0</li>
-                                <li>0</li>
-                                <li>0</li>
-                                <li>0</li>
-                                <li>0</li>
-                                <li>0</li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017204319344414822/logo1.png" alt=""/></li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017201897981083658/logo2.png" alt=""/></li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017201903022657567/logo3.png" alt=""/></li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017201918793220177/logo4.png" alt=""/></li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017201934060503071/logo5.png" alt=""/></li>
+                                <li> <img src="https://cdn.discordapp.com/attachments/840217064978907170/1017201949331951616/logo6.png" alt=""/></li>
+                              
                             </ul>
 
                         </aside>
