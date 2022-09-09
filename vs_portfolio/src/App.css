@@ -41,6 +41,7 @@
   background-color: #3F4040;
   border-radius: 8px ;
   cursor:default;
+  margin:-1px;
 }
 
 
@@ -156,10 +157,10 @@ background-color: #333333;
  }
 
  .sidebar aside ul li img:hover{
-  width: 54px;
-  height: 54px;
+  /* width: 55px;
+  height: 55px; */
   cursor: pointer;
-
+  border-left: 3px solid white;
 }
 
 .asideFolder{
@@ -172,6 +173,86 @@ background-color: #333333;
   background-color: #1E1E1E;
 }
 
+ .explorer {
+    display: flex;
+    flex-grow:2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.explorer h1 {
+    font-size: 13px;
+    color: #CCCCCC;
+    padding: 4px;
+    line-height: 5px;
+}
+
+.explorer h1:hover {
+    cursor: pointer;
+    border: 1px solid #3F4040;
+    background-color: #3F4040;
+    border-radius: 6px ;
+}
+
+.explorer p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #BBBBBB;
+}
+
+.proyectFolderName {
+    width: 100%;
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proyectFolderName div {
+    width: 10%;
+    height: fit-content;
+}
+
+.proyectFolderName img {
+    width: 18px;
+    height: 18px;
+padding-top: 6px;
+padding-left: 8px;
+}
+
+.proyectFolderName p {
+    width: 88%;
+    font-size: 15px;
+    line-height: 2px;
+    padding-left: 4px;
+    color: #CCCCCC;
+    font-weight: 600;
+}
+
+.proyectFolderName:hover,
+.folders ul:hover {
+    background-color: #2A2D2E;
+    cursor: pointer;
+}
+
+.folders ul {
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    list-style: none;
+}
 
 
+.folders ul li {
+    width: 100%;
+    margin-top: 5px;
+}
 
+.folders img {
+    width: 16px;
+    height: 16px;
+    
+}
